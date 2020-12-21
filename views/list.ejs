@@ -1,20 +1,19 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Todo List</title>
-  </head>
-  <body>
-    <h1><%= date %></h1>
-    <ul>
-      <% for (i in listItems) {%>
-      <li><%= listItems[i] %></li>
-      <% } %>
-    </ul>
-    <form action="/" method="POST">
-      <input type="text" name="newItem" />
-      <button type="submit" name="button">New Item</button>
-    </form>
-  </body>
-</html>
+<%- include("header") -%>
+
+<div class="box" id="heading">
+  <h1><%= listTitle %></h1>
+</div>
+<div class="box">
+  <% for (i in listItems) {%>
+  <div class="item">
+    <input type="checkbox" />
+    <p><%= listItems[i] %></p>
+  </div>
+  <% } %>
+  <form action="/" method="POST" class="item">
+    <input type="text" name="newItem" placeholder="New Item" autocomplete="off" />
+    <button type="submit" name="list" value="<%= listTitle %>">+</button>
+  </form>
+</div>
+
+<%- include("footer") -%>
