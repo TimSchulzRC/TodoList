@@ -1,0 +1,35 @@
+[33mcommit d4783487de451ad1a0d6b3012bc87a9f9a7989f2[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/secondTry[m[33m, [m[1;31morigin/master[m[33m, [m[1;32msecondTry[m[33m)[m
+Author: TimSchulzRC <TimSchulzRC@github.com>
+Date:   Mon Dec 21 20:58:05 2020 +0100
+
+    finish second try successfully
+
+[33mcommit ff81f7c04589a59313bf89913ab11d45207034dc[m
+Author: TimSchulzRC <TimSchulzRC@github.com>
+Date:   Mon Dec 21 20:36:27 2020 +0100
+
+    make function to ad list items
+
+[33mcommit bdde7046fabf2c38201fb23483f0d8012271c9e1[m
+Author: TimSchulzRC <TimSchulzRC@github.com>
+Date:   Mon Dec 21 18:56:39 2020 +0100
+
+    setup template
+
+[33mcommit 3b7aa4a97006f61a95ecca9d71b921389f0617c5[m
+Author: Tim Schulz <62880446+TimSchulzRC@users.noreply.github.com>
+Date:   Mon Dec 21 18:18:38 2020 +0100
+
+    Create README.md
+
+[33mcommit 319be5b33cbf5afaa417f842969ee3c98b751486[m
+Author: TimSchulzRC <TimSchulzRC@github.com>
+Date:   Mon Dec 21 18:15:59 2020 +0100
+
+    add .gitignore
+
+[33mcommit 03de3a468aff61d6d0f6448a2ad1c27fe36fdac0[m
+Author: TimSchulzRC <TimSchulzRC@github.com>
+Date:   Mon Dec 21 18:08:22 2020 +0100
+
+    initial commit
