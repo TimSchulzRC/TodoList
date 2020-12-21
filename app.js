@@ -2,10 +2,22 @@ const express = require("express");
 const bodyParser = require("body-parser");
 
 const app = express();
-port = 3000;
+const port = 3000;
+
+app.set("view engine", "ejs");
 
 app.get("/", function (req, res) {
-  res.send("hello world");
+  var today = new Date();
+  var currentDay = today.getDay();
+  var day = "";
+
+  if (currentDay === 6 || currentDay === 0) {
+    day = "Weekend";
+  } else {
+    day = "Weekday";
+  }
+
+  res.render("list", { day: day });
 });
 
 app.listen(port, function () {
